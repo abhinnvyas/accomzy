@@ -4,7 +4,7 @@ import LogoDescpt from "../public/logo_descpt.png";
 
 function Navbar() {
   return (
-    <div className="bg-transparent flex justify-between items-center hover:cursor-pointer">
+    <div className="bg-transparent flex flex-wrap justify-between items-center hover:cursor-pointer">
       <Image
         className=""
         src={LogoDescpt}

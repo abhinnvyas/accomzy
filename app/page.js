@@ -17,9 +17,9 @@ export default function Home() {
       <Navbar />
 
       {/* Home Page */}
-      <div className=" relative mt-10 flex flex-col space-y-10 md:flex-row md:space-x-10 justify-center items-center">
+      <div className="relative mt-10 flex flex-col space-y-10 md:flex-row md:space-x-10 justify-center items-center">
         <div className=" flex flex-col space-y-5  items-start max-w-xl self-start">
-          <div className="text-7xl font-bold leading-tight">
+          <div className="text-5xl md:text-7xl font-bold leading-tight">
             Exploring<br></br>
             <span className="text-[#AC6FFA]">Accommodation</span> <br></br>Made
             Easy

@@ -9,7 +9,7 @@ import Image from "next/image";
 function SearchProperty() {
   return (
     <div className="">
-      <div className="ml-5 flex max-w-xs space-x-4 items-center">
+      <div className="ml-5 flex flex-wrap max-w-xs space-x-4 items-center">
         <div className="flex-grow text-center bg-[#AC6FFA] text-black p-2 rounded-t-md hover:cursor-pointer">
           Hostel
         </div>
@@ -20,7 +20,7 @@ function SearchProperty() {
           Rent out
         </div>
       </div>
-      <div className="flex space-x-4 bg-white bg-opacity-30 p-2 px-4 rounded-md border border-white max-w-3xl">
+      <div className="flex flex-col space-y-2 md:flex-row space-x-4 bg-white bg-opacity-30 p-2 px-4 rounded-md border border-white max-w-3xl">
         <div className="flex-grow flex flex-row items-center justify-between space-x-2 bg-white p-2 px-4 text-black rounded-md hover:cursor-pointer">
           <div className="flex space-x-2">
             <Image
